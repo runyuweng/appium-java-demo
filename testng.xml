@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/wengrunyu/Desktop/seagullTest">
+        <classes>
+            <class name="com.wengrunyu.test.NewTest">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
